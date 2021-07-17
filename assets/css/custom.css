@@ -1,0 +1,18 @@
+.project-header{
+    font-size: 16px;
+}
+.description{
+    margin: 0px;
+}
+
+.skills-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 300px;
+}   
+
+.skills-list li{
+    font-size: 3em;
+}
