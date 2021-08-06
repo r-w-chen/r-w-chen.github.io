@@ -2,7 +2,12 @@
     font-size: 16px;
 }
 .description{
-    margin: 0px;
+    margin: 0px 5px;
+}
+
+.technologies{
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .skills-list{
@@ -15,4 +20,53 @@
 
 .skills-list li{
     font-size: 3em;
+    display: flex;
+    flex-direction: column;
 }
+.skills-list p {
+    font-size: 12px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content:center;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-container__main{
+    text-align: left;
+    font-size: 16px;
+}
+
+.contact-container__main h3{
+    font-weight: bold;
+}
+
+.contact-container__main h4{
+    text-decoration: underline;
+}
+
+.contact-container__socials{
+    text-align: left;
+    font-size: 16px;
+}
+
+.contact-container__socials h3{
+    font-weight: bold;
+}
+
+.contact-container__socials ul{
+    margin: 0;
+    margin-left: -5px;
+    padding: 0;
+}
+
+.contact-container__socials li{
+    list-style: none;
+}
+
