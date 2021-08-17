@@ -1984,12 +1984,13 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		
 	}
 
 		.item header {
 			background: #fff;
 			margin: 0;
-			padding: 1em 0 1em 0;
+			/* padding: 1em 0 1em 0; */
 			font-size: 0.8em;
 		}
 
@@ -2250,7 +2251,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("/images/blossoms.png")
 			}
 
 			#main > section.two {

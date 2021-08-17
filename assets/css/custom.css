@@ -14,6 +14,7 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-content: space-around;
     height: 300px;
 }   
@@ -70,3 +71,37 @@
     list-style: none;
 }
 
+.about-description{
+    display: flex;
+}
+
+.about-description img{
+    width: 40%;
+    margin-left: 50px;
+}
+
+.one, .four, #contact{
+    height: 100vh;
+}
+
+.item{
+    /* box-sizing: border-box; */
+    /* height: 470px; */
+    background: white;
+    margin: 10px;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .about-description{
+        flex-direction: column-reverse;
+    }
+    .about-description img{
+        width: 60%;
+        /* margin-left: 50px; */
+        margin-left: 0px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
